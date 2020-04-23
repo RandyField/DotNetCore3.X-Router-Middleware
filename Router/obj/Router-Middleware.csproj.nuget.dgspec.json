@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\工作事项\\code\\mycode\\Router\\Router\\Router-Middleware.csproj": {}
+    "E:\\工作事项\\code\\mycode\\DotNetCore3.X-Router-Middleware\\Router\\Router-Middleware.csproj": {}
   },
   "projects": {
-    "E:\\工作事项\\code\\mycode\\Router\\Router\\Router-Middleware.csproj": {
+    "E:\\工作事项\\code\\mycode\\DotNetCore3.X-Router-Middleware\\Router\\Router-Middleware.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\工作事项\\code\\mycode\\Router\\Router\\Router-Middleware.csproj",
+        "projectUniqueName": "E:\\工作事项\\code\\mycode\\DotNetCore3.X-Router-Middleware\\Router\\Router-Middleware.csproj",
         "projectName": "Router-Middleware",
-        "projectPath": "E:\\工作事项\\code\\mycode\\Router\\Router\\Router-Middleware.csproj",
+        "projectPath": "E:\\工作事项\\code\\mycode\\DotNetCore3.X-Router-Middleware\\Router\\Router-Middleware.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "E:\\工作事项\\code\\mycode\\Router\\Router\\obj\\",
+        "outputPath": "E:\\工作事项\\code\\mycode\\DotNetCore3.X-Router-Middleware\\Router\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

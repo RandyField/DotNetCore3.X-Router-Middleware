@@ -59,17 +59,36 @@ namespace Router
             {
                 app.Run(async context =>
                 {
-                    await context.Response.WriteAsync("Map Test 1");
+                    var endpoint = context.GetEndpoint();  // 始终获取的是null
+                    await context.Response.WriteAsync("我是map");
                 });
             });
 
             app.UseRouting();
 
+            //创建中间件管道分支
+            app.Map("/test", app =>
+            {
+                app.Run(async context =>
+                {
+                    var endpoint = context.GetEndpoint();  // 始终获取的是null
+                    await context.Response.WriteAsync("我是test");
+                });
+            });
+
             app.UseEndpoints(endpoints =>
             {
+
                 endpoints.MapGet("/", async context =>
                 {
+                    var endpoint = context.GetEndpoint();
                     await context.Response.WriteAsync("Hello World!");
+                });
+                
+                endpoints.MapGet("/test1", async context =>
+                {
+                    var endpoint = context.GetEndpoint();
+                    await context.Response.WriteAsync("我是test1");
                 });
             });
         }
